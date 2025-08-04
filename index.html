@@ -1,8 +1,8 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://webflow.com  --><!--  Last Published: Tue Apr 22 2025 08:45:01 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html>
 <html data-wf-page="67408408e98be3c82c18b3d1" data-wf-site="67408407e98be3c82c18b358">
 <head>
   <meta charset="utf-8">
-  <title>Agency Free Cloneable Hero Section | TheHeroSection</title>
+  <title>Bon Vivant</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -16,6 +16,37 @@
   <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon">
   <link href="images/webclip.png" rel="apple-touch-icon">
   <style>
+  .whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #25D366;
+    border-radius: 50%;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(37, 211, 102, 0.3);
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+  }
+  .whatsapp-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.5);
+  }
+  .whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    display: block;
+  }
+  .whatsapp-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
 .w-slider-dot {
 	width: 5px !important;
   height: 5px;
@@ -42,6 +73,21 @@
   margin: 15px 0px;
   transition: width 0.8s ease-in-out, height 0.8s ease-in-out, background-color 0.4s ease-in-out;
 }
+
+/* Fondo blanco para las cards de vinos */
+.prod__card {
+  background-color: white !important;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.prod__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
 </style>
 </head>
 <body class="body">
@@ -58,7 +104,7 @@
         </div>
       </div>
       <a href="#" class="ths13-brand w-inline-block"><img src="images/Crema.svg" loading="lazy" alt="" class="ths13-logo"></a>
-      <a data-w-id="1410abd0-922f-018e-b519-a1701ffcab99" href="#Contacts" class="ths13-nav-link w-inline-block">
+      <a data-w-id="1410abd0-922f-018e-b519-a1701ffcab99" href="mailto:miguel.miranda@jacquesscott.com" class="ths13-nav-link w-inline-block">
         <div style="-webkit-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-nav-link-text">contacto</div>
         <div style="-webkit-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-nav-link-hover-text">Contacto</div>
       </a>
@@ -136,23 +182,23 @@
     </div>
     <div style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="ths13-menu">
       <div class="ths13-menu-nav-links-wrapper">
-        <a data-w-id="75c72bbb-7d5c-5070-7480-71a818951eab" href="#" class="ths13-menu-nav-link-1 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Tintos</div>
+        <a data-w-id="75c72bbb-7d5c-5070-7480-71a818951eab" href="Tintos.html" class="ths13-menu-nav-link-1 w-inline-block">
+          <div class="ths13-menu-nav-link-text">Tintos</div>
         </a>
-        <a data-w-id="2ae6cf2f-a5c2-5226-411b-ad52e1e80490" href="#" class="ths13-menu-nav-link-2 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Blancos y Rosados</div>
+        <a data-w-id="2ae6cf2f-a5c2-5226-411b-ad52e1e80490" href="Blancos y Rosados.html" class="ths13-menu-nav-link-2 w-inline-block">
+          <div class="ths13-menu-nav-link-text">Blancos y Rosados</div>
         </a>
-        <a data-w-id="29c69ae2-6d3b-0fbf-bb34-8a646375301c" href="#" class="ths13-menu-nav-link-3 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Champagnes y Espumosos</div>
+        <a data-w-id="29c69ae2-6d3b-0fbf-bb34-8a646375301c" href="Champagne y Espumosos.html" class="ths13-menu-nav-link-3 w-inline-block">
+          <div class="ths13-menu-nav-link-text">Champagnes y Espumosos</div>
         </a>
-        <a data-w-id="facd6b4a-8cbf-c528-63ee-d28713450ece" href="#" class="ths13-menu-nav-link-4 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Destilados y otras bebidas</div>
+        <a data-w-id="facd6b4a-8cbf-c528-63ee-d28713450ece" href="Destilados y Otras Bebidas.html" class="ths13-menu-nav-link-4 w-inline-block">
+          <div class="ths13-menu-nav-link-text">Destilados y otras bebidas</div>
         </a>
-        <a data-w-id="1da68ac8-4cec-0ce9-97e6-4d9f189f965d" href="#" class="ths13-menu-nav-link-5 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Regalos y más</div>
+        <a data-w-id="1da68ac8-4cec-0ce9-97e6-4d9f189f965d" href="regalos.html" class="ths13-menu-nav-link-5 w-inline-block">
+          <div class="ths13-menu-nav-link-text">Regalos y más</div>
         </a>
         <a data-w-id="10e25848-be53-3796-535d-0e89767ecb32" href="#About" class="ths13-menu-nav-link-6 w-inline-block">
-          <div style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="ths13-menu-nav-link-text">Nosotros</div>
+          <div class="ths13-menu-nav-link-text">Nosotros</div>
         </a>
       </div>
       <div class="ths13-menu-footer">
@@ -187,7 +233,7 @@
             </div>
             <div class="overflow-hidden">
               <div data-w-id="64117dba-4c43-7da5-58d5-71bfc745b57b" style="-webkit-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 110%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-                <a data-remodal-target="form" href="catalog.html" class="btn w-inline-block">
+                <a data-remodal-target="form" href="Tintos.html" class="btn w-inline-block">
                   <div class="btn__bg"></div>
                   <div class="btn__txt">Explore</div>
                 </a>
@@ -213,6 +259,13 @@
                   <div class="prod__card-txt-wrap">
                     <div class="prod__card-title-2">Item_1</div>
                     <div class="prod__card-price-2">$3,900</div>
+                    <div class="whatsapp-container">
+                      <a href="https://wa.me/5352900105?text=Hola%2C%20me%20interesa%20consultar%20la%20disponibilidad%20de%3A%0A%0A🍷%20Item_1%0A💰%20$3,900%0A%0A¿Está%20disponible%3F" target="_blank" class="whatsapp-btn">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.473 3.516"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -223,6 +276,13 @@
                   <div class="prod__card-txt-wrap">
                     <div class="prod__card-title-2">item_2</div>
                     <div class="prod__card-price-2">$2,900</div>
+                    <div class="whatsapp-container">
+                      <a href="https://wa.me/5352900105?text=Hola%2C%20me%20interesa%20consultar%20la%20disponibilidad%20de%3A%0A%0A🍷%20item_2%0A💰%20$2,900%0A%0A¿Está%20disponible%3F" target="_blank" class="whatsapp-btn">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.473 3.516"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -233,6 +293,13 @@
                   <div class="prod__card-txt-wrap">
                     <div class="prod__card-title-2">item_3</div>
                     <div class="prod__card-price-2">$900</div>
+                    <div class="whatsapp-container">
+                      <a href="https://wa.me/5352900105?text=Hola%2C%20me%20interesa%20consultar%20la%20disponibilidad%20de%3A%0A%0A🍷%20item_3%0A💰%20$900%0A%0A¿Está%20disponible%3F" target="_blank" class="whatsapp-btn">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.473 3.516"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -243,6 +310,13 @@
                   <div class="prod__card-txt-wrap">
                     <div class="prod__card-title-2">item_4</div>
                     <div class="prod__card-price-2">$4,500</div>
+                    <div class="whatsapp-container">
+                      <a href="https://wa.me/5352900105?text=Hola%2C%20me%20interesa%20consultar%20la%20disponibilidad%20de%3A%0A%0A🍷%20item_4%0A💰%20$4,500%0A%0A¿Está%20disponible%3F" target="_blank" class="whatsapp-btn">
+                        <svg class="whatsapp-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.473 3.516"/>
+                        </svg>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -318,8 +392,8 @@
               </div>
               <div class="footer__col mod--3">
                 <div class="footer__social">
-                  <a href="https://www.facebook.com/halolabteam/" target="_blank" class="footer__soc-link w-inline-block"><img loading="eager" src="images/ico_soc-fb.svg" alt="" class="footer__soc-img"></a>
-                  <a href="https://www.instagram.com/halolabteam/" target="_blank" class="footer__soc-link w-inline-block"><img loading="eager" src="images/ico_soc-inst.svg" alt="" class="footer__soc-img"></a>
+                  <a href="#" class="footer__soc-link w-inline-block"><img loading="eager" src="images/ico_soc-fb.svg" alt="" class="footer__soc-img"></a>
+                  <a href="#" class="footer__soc-link w-inline-block"><img loading="eager" src="images/ico_soc-inst.svg" alt="" class="footer__soc-img"></a>
                 </div>
               </div>
             </div>
@@ -327,16 +401,22 @@
               <div class="footer__col mod--2">
                 <ul role="list" class="footer__list">
                   <li class="footer__list-item">
-                    <a href="#" class="footer__nav-link">Objects</a>
+                    <a href="Tintos.html" class="footer__nav-link">Tintos</a>
                   </li>
                   <li class="footer__list-item">
-                    <a href="#" class="footer__nav-link">Our gallery</a>
+                    <a href="Blancos y Rosados.html" class="footer__nav-link">Blancos y Rosados</a>
                   </li>
                   <li class="footer__list-item">
-                    <a href="#" class="footer__nav-link">About</a>
+                    <a href="Champagne y Espumosos.html" class="footer__nav-link">Champagnes y Espumosos</a>
                   </li>
                   <li class="footer__list-item">
-                    <a href="#" class="footer__nav-link">Contacts</a>
+                    <a href="Destilados y Otras Bebidas.html" class="footer__nav-link">Destilados y otras bebidas</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="#About" class="footer__nav-link">Nosotros</a>
+                  </li>
+                  <li class="footer__list-item">
+                    <a href="mailto:miguel.miranda@jacquesscott.com" class="footer__nav-link">Contacto</a>
                   </li>
                 </ul>
               </div>
@@ -344,7 +424,7 @@
                 <h3 class="footer__title-list">Contacto</h3>
                 <ul role="list" class="footer__list">
                   <li class="footer__list-item">
-                    <a href="mailto:mail@halo-lab.com" class="footer__link">miguel.miranda@jacquesscott.com</a>
+                    <a href="mailto:miguel.miranda@jacquesscott.com" class="footer__link">miguel.miranda@jacquesscott.com</a>
                   </li>
                   <li class="footer__list-item">
                     <a href="tel:+380962722100" class="footer__link">+53 52900105</a>
